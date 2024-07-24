@@ -19,7 +19,7 @@ jobs:
         run: ./gradlew build
 
       - name: Upload a Build Artifact
-        uses: actions/upload-arifact@v3.1.3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: CICD.apk
           path: apk/build/output/apk/debug/app-debug.apk
