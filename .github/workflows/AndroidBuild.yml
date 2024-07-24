@@ -1,9 +1,13 @@
 name: AndroidBuild
 on:
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+      - sadeeq
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - sadeeq
 
 jobs:
   build:
