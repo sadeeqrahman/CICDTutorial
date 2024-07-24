@@ -19,6 +19,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build with Gradle
+        uses: gradle/actions@v4.0.0-beta.1
         run: ./gradlew build
 
       - name: Upload a Build Artifact
