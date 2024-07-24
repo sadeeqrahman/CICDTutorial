@@ -23,7 +23,6 @@ jobs:
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.4
-
         with:
-          name: CICD.apk
-          path: apk/build/output/apk/debug/app-debug.apk
+          name: AndroidCICD.apk
+          path: apk/build/outputs/apk/debug/app-debug.apk
